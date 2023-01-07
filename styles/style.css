@@ -11,6 +11,12 @@
     background-size:cover;
     background-repeat: no-repeat;
 }
+.banner .description .orange{
+    color: orange;
+}
+.banner .description .green{
+    color: green;
+}
 .banner .description{
     width: 500px;
     height: 700px;
@@ -114,6 +120,9 @@
     justify-content: center;
     margin-left: 100px;
     text-align: left;
+}
+.banner-2 .written .black{
+    color: black;
 }
 .banner-2 .written h1{
     font-weight: 700;
