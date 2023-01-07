@@ -85,7 +85,7 @@
     margin-top: 30px;
     line-height: 30px;
 }
-.plans .plan .part1, .part2, .part3, .part4{
+.plans .plan > .part1, .part2, .part3, .part4{
     background-color: bisque;
     padding: 15px;
     width: 250px;
@@ -97,7 +97,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode:multiply;
-    height: 200px;
+    height: 300px;
     width: 1140px;
     margin-left: 200px;
     margin-right: 200px;
@@ -119,6 +119,51 @@
     color: whitesmoke;
 }
 .banner-2 .written button{
+    width: 100px;
+    height: 40px;
+    color: orange;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: whitesmoke;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+}
+/* footer */
+footer{
+    display: flex;
+    gap: 100px;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+}
+footer > .Info{
+    margin-left: 200px;
+    padding: 50px;
+}
+footer .form{
+    margin-right: 200px;
+    padding: 50px;
+}
+footer .Info h1{
+    margin-bottom: 20px;
+}
+footer .Info p{
+    margin-bottom: 15px;
+}
+footer .form h1{
+    margin-bottom: 20px;
+}
+footer .form input{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+}
+footer .form button{
     width: 100px;
     height: 40px;
     color: orange;
