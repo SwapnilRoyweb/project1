@@ -40,29 +40,54 @@
     margin-left: 400px;
 }
 /* section part */
-section{
+.one{
     display: flex;
     gap: 120px;
     margin-left: 200px;
     margin-right: 200px;
 }
-section .part-1{
+.one .part-1{
     margin-top: 150px;
     background-color: bisque;
     border-radius: 50%;
 }
-section .part-2{
+.one .part-2{
     margin-top: 350px;
     width: 300px;
     text-align:left;
 }
-section .part-2 h1{
+.one .part-2 h1{
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 40px;
 }
-section .part-2 p{
+.one .part-2 p{
     margin-bottom: 15px;
     font-weight: 400;
     font-size: 18px;
+}
+/* section part-2 */
+.plans{
+    width: 1140px;
+    height: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    text-align: center;
+}
+.plans > h1{
+    text-align: center;
+}
+.plans .plan{
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    line-height: 30px;
+}
+.plans .plan .part1, .part2, .part3, .part4{
+    background-color: bisque;
+    padding: 15px;
+    width: 250px;
+    border-radius: 30px;
 }
