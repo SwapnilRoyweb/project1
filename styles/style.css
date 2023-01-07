@@ -91,3 +91,41 @@
     width: 250px;
     border-radius: 30px;
 }
+/* part3 section banner-2 */
+.banner-2{
+    background-image: url(../public/assets/images/watch.png), url(../public/assets/images/gradient2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode:multiply;
+    height: 200px;
+    width: 1140px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+.banner-2 .written{
+    width: 400px;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+}
+.banner-2 .written h1{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: whitesmoke;
+}
+.banner-2 .written button{
+    width: 100px;
+    height: 40px;
+    color: orange;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: whitesmoke;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+}
